@@ -1,8 +1,10 @@
 script:
         - make some_file
 
+sudo: false
 notifications:
         slack:
                 rooms:
                         - alleinc:6yncDJjTY33b9S0XeC5RWkkF#learnMakefile
                 on_success: always
+
